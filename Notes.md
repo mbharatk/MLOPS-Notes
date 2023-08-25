@@ -21,17 +21,18 @@ Client <------Response (text, JSON etc)------Server
 Setting up the required environment (Python, Jupyter):
 ---------------------------------------------------------------
 
- To begin with, install [python](https://www.python.org/) and create a virtual environment, activate it and then install jupyter lab using the following commands
+ To begin with, install [python](https://www.python.org/) and create a virtual environment, activate it and then install [jupyter lab](https://jupyter.org/) by using the following commands
 
-    $python -m venv venv
-    $source venv/bin/activate
-    $pip3 install jupyterlab/jupyter
+    $python -m venv 'yourpreferredvitualenvname'
+    $source venv/bin/activate (for mac) | $yourpreferredvirtualevname\scripts\activate (for windows)
+    $pip3 install jupyterlab
     $jupyter lab
 
+After the jupyter lab is opened in a web browser, open a terminal in it and use the following example,
 
-### [Using a sample code from mlops code examples](https://github.com/mbharatk/mlops-code-examples.git)
+### [Using a sample code from mlops code examples repo](https://github.com/mbharatk/mlops-code-examples.git)
 
- In this examples, we used the flask regression sample code for the following hands-on
+ In this example, we used the flask regression sample code
 
     $cd flask_examples_regression
     $vi flask_simple_regression_service.py and remove import pickle & save
@@ -40,7 +41,7 @@ Setting up the required environment (Python, Jupyter):
     run the "python flask_simple_regression_service.py" again
 
 
-#### use the following commands in jupyter-lab to check how the generated ip address works
+#### use the following commands in jupyter-lab python notebook to check how the server responds to the requests
 
     import requests
 
