@@ -1,4 +1,4 @@
-### MLOps is a set of practices taht aim to deploy and maintain machine learning models in production reliably and efficiently.
+#### MLOps is a set of practices that aim to deploy and maintain machine learning models in production reliably and efficiently.
 
 `MLOPS = Machine Learning + DevOps + Data Engineering`
 
@@ -6,18 +6,21 @@ Web server:
 --------------
 
 Client ------Request (GET, POST)------->Server
-CLient <------Response (text, JSON ect)------Server
+Client <------Response (text, JSON etc)------Server
 
 *   Client = Curl, Python/requests, Web browser
 *   Server = EC2, Virtualbox, any remotely managed machine
 
-List of Web Servers tools: 
+#### List of Web Servers tools: 
 *   Virtualbox, AWS EC2, GCP CLoud Compute
 *   SSH
 *   Python: Jupyter-lab, Pandas, Pytorch, Pickle, Requests, FLask, Poetry
 *   CLI Commands: ls, cd, sudo, sudo apt*, curl, screen, ssh-keygen, chmod
 
-#### hands-on:
+
+#### Setting up the required environment (Python, Jupyter):
+
+ To begin with, install python and create a virtual environment, activate it and then install jupyter lab using the following commands
 
     $python -m venv venv
     $source venv/bin/activate
@@ -25,8 +28,9 @@ List of Web Servers tools:
     $jupyter lab
 
 
+### [Using a sample code from mlops code examples](https://github.com/mbharatk/mlops-code-examples.git)
 
-### mlops code examples:
+ In this examples, we used the flask regression sample code for the following hands-on
 
     $cd flask_examples_regression
     $vi flask_simple_regression_service.py and remove import pickle & save
