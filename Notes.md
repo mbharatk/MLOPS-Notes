@@ -6,6 +6,7 @@ Web server:
 --------------
 
 Client ------Request (GET, POST)------->Server
+
 Client <------Response (text, JSON etc)------Server
 
 *   Client = Curl, Python/requests, Web browser
@@ -28,8 +29,8 @@ Setting up the required environment (Python, Jupyter):
     $pip3 install jupyterlab
     $jupyter lab
 
-After the jupyter lab is opened in a web browser, open a terminal in it and use the following example,
 
+After the jupyter lab is opened in a web browser, open a terminal in it and use the following example,
 ### [Using a sample code from mlops code examples repo](https://github.com/mbharatk/mlops-code-examples.git)
 
  In this example, we used the flask regression sample code
