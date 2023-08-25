@@ -18,9 +18,10 @@ Client <------Response (text, JSON etc)------Server
 *   CLI Commands: ls, cd, sudo, sudo apt*, curl, screen, ssh-keygen, chmod
 
 
-#### Setting up the required environment (Python, Jupyter):
+Setting up the required environment (Python, Jupyter):
+---------------------------------------------------------------
 
- To begin with, install python and create a virtual environment, activate it and then install jupyter lab using the following commands
+ To begin with, install [python](https://www.python.org/) and create a virtual environment, activate it and then install jupyter lab using the following commands
 
     $python -m venv venv
     $source venv/bin/activate
