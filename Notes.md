@@ -1,8 +1,9 @@
-MLOps is a set of practices taht aim to deploy and maintain machine learning models in production reliably and efficiently.
+### MLOps is a set of practices taht aim to deploy and maintain machine learning models in production reliably and efficiently.
 
-MLOPS = Machine Learning + DevOps + Data Engineering 
+`MLOPS = Machine Learning + DevOps + Data Engineering`
 
-#### Web server:
+Web server:
+--------------
 
 Client ------Request (GET, POST)------->Server
 CLient <------Response (text, JSON ect)------Server
@@ -17,6 +18,7 @@ List of Web Servers tools:
 *   CLI Commands: ls, cd, sudo, sudo apt*, curl, screen, ssh-keygen, chmod
 
 #### hands-on:
+
     $python -m venv venv
     $source venv/bin/activate
     $pip3 install jupyterlab/jupyter
@@ -33,7 +35,7 @@ List of Web Servers tools:
     run the "python flask_simple_regression_service.py" again
 
 
-#### use the following commands to check how the generated ip address works
+#### use the following commands in jupyter-lab to check how the generated ip address works
 
     import requests
 
